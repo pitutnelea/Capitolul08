@@ -3,20 +3,8 @@
 #include <cmath>
 #define M_PI 3.14
 
-Cilindru::Cilindru()
+Cilindru::Cilindru(double razaBaza, double inaltime):_baza{razaBaza}, _inaltime{inaltime}
 {
-    //ctor
-}
-
-Cilindru::Cilindru(double razaBaza)
-{
-    _baza = razaBaza;
-}
-
-Cilindru::Cilindru(double razaBaza, double inaltime)
-{
-    _baza = razaBaza;
-    _inaltime = inaltime;
 }
 
 Cilindru::~Cilindru()

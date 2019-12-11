@@ -9,8 +9,6 @@ class Cilindru
         double _inaltime;
 
     public:
-        Cilindru();
-        Cilindru(double);
         Cilindru(double, double);
         double Volum ();
         double Arie();

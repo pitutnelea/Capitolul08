@@ -9,14 +9,6 @@ Cerc::Cerc()
     //ctor
 }
 
-/*Cerc::Cerc(double raza)
-{
-    Cerc();
-    {
-        _raza = raza;
-    }
-}*/
-
 Cerc::Cerc(double raza)
 {
     _raza = raza;
