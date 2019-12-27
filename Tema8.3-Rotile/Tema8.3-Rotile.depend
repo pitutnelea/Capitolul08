@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1577479566 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\main.cpp
+	<iostream>
+	"Masina.h"
+
+1577475259 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\janta.h
+
+1577475535 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\janta.cpp
+	"Janta.h"
+
+1577477103 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\anvelopa.h
+	<string>
+
+1577476066 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\anvelopa.cpp
+	"Anvelopa.h"
+
+1577477954 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\roata.h
+	"Janta.h"
+	"Anvelopa.h"
+
+1577477444 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\roata.cpp
+	"Roata.h"
+
+1577479059 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\masina.h
+	"Roata.h"
+
+1577458877 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\masina.cpp
+	"Masina.h"
+
