@@ -17,7 +17,6 @@ class Roata
         void UmflaRoata(double);
         TipAnvelopa GetTipAnvelopa();
         virtual ~Roata();
-
     protected:
     private:
         Anvelopa _anvelopa;
