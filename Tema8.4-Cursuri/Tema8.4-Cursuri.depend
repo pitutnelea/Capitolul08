@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1578002188 source:d:\cplusplus\proiecte\capitolul08\tema8.4-cursuri\main.cpp
+	<iostream>
+	"Mentor.h"
+	"Cursant.h"
+
+1578003400 source:d:\cplusplus\proiecte\capitolul08\tema8.4-cursuri\src\persoana.cpp
+	"Persoana.h"
+	<iostream>
+
+1578002720 d:\cplusplus\proiecte\capitolul08\tema8.4-cursuri\include\persoana.h
+	<string>
+	<iostream>
+
+1578002128 source:d:\cplusplus\proiecte\capitolul08\tema8.4-cursuri\src\mentor.cpp
+	"Mentor.h"
+
+1577887837 d:\cplusplus\proiecte\capitolul08\tema8.4-cursuri\include\mentor.h
+	"Persoana.h"
+
+1578002138 source:d:\cplusplus\proiecte\capitolul08\tema8.4-cursuri\src\cursant.cpp
+	"Cursant.h"
+
+1577887851 d:\cplusplus\proiecte\capitolul08\tema8.4-cursuri\include\cursant.h
+	"Persoana.h"
+
