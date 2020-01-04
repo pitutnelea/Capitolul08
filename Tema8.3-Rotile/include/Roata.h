@@ -7,15 +7,15 @@ class Roata
 {
     public:
         Roata();
-        void SetAnvelopa(Anvelopa anvelopa){_anvelopa = anvelopa;}
-        Anvelopa GetAnvelopa(){return _anvelopa;}
-        void SetJanta(Janta janta){_janta = janta;}
-        Janta GetJanta(){return _janta;}
         Roata(Anvelopa, Janta);
         bool IsFlat();
         void SchimbaRoata(Anvelopa, Janta);
         void UmflaRoata(double);
         TipAnvelopa GetTipAnvelopa();
+        void SetAnvelopa(Anvelopa anvelopa){_anvelopa = anvelopa;}
+        Anvelopa GetAnvelopa(){return _anvelopa;}
+        void SetJanta(Janta janta){_janta = janta;}
+        Janta GetJanta(){return _janta;}
         virtual ~Roata();
     protected:
     private:

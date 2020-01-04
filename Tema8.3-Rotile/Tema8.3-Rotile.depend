@@ -1,30 +1,30 @@
 # depslib dependency file v1.0
-1577737383 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\main.cpp
+1578161172 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\main.cpp
 	<iostream>
 	"Masina.h"
 
 1577475259 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\janta.h
 
-1577475535 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\janta.cpp
+1577743938 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\janta.cpp
 	"Janta.h"
 
-1577477103 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\anvelopa.h
+1578160740 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\anvelopa.h
 	<string>
 
-1577476066 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\anvelopa.cpp
+1577743938 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\anvelopa.cpp
 	"Anvelopa.h"
 
-1577477954 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\roata.h
+1578160740 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\roata.h
 	"Janta.h"
 	"Anvelopa.h"
 
-1577477444 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\roata.cpp
+1578160740 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\roata.cpp
 	"Roata.h"
 
-1577730460 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\masina.h
+1578160740 d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\include\masina.h
 	"Roata.h"
 
-1577742571 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\masina.cpp
+1578160933 source:d:\cplusplus\proiecte\capitolul08\tema8.3-rotile\src\masina.cpp
 	"Masina.h"
 	<iostream>
 
