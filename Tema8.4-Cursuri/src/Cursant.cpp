@@ -32,11 +32,10 @@ string Cursant::Absolva()
 {
     string sir1 = " nu are note suficiente";
     string sir2 = " nu absolva";
-    string sir3 = "absolva";
-    if (HasGrades() == true) {return sir1;}
-    else if ((HasGrades() == false) && (IsAverageOk() == false)) {return sir2;}
+    string sir3 = " absolva";
+    if (HasGrades() == false) {return sir1;}
+    else if ((HasGrades() == true) && (IsAverageOk() == false)) {return sir2;}
         else {return sir3;}
-
 }
 
 bool Cursant::HasGrades()

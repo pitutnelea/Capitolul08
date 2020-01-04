@@ -1,6 +1,4 @@
 #include "Mentor.h"
-//#include <iostream>
-//using namespace std;
 
 Mentor::Mentor(string prenume, string nume, string materie): Persoana{prenume, nume, materie}
 {
@@ -17,7 +15,6 @@ string Mentor::GetNumeComplet()
     string sir2 = Persoana::GetNumeComplet();
     string sir3 = sir1 + sir2;
     return sir3;
-
 }
 
 string Mentor::Activitate()

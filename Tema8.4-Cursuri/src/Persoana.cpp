@@ -13,7 +13,7 @@ Persoana::~Persoana()
 
 string Persoana::Activitate()
 {
-    return "cursul";
+    return "cursul ";
 }
 
 string Persoana::GetNumeComplet()
