@@ -75,3 +75,10 @@ void Masina::AfiseazaTipCauciucuri(string numeMasina)
     else {cout << "mixte";}
     cout <<" " << endl;
 }
+
+//în metoda Masina::AfiseazaTipCauciucuri condiția pe care o folosești e incorectă. 
+//Condiția „(_roti[0].GetTipAnvelopa()) == (_roti[1].GetTipAnvelopa())==(_roti[2].GetTipAnvelopa())==(_roti[3].GetTipAnvelopa())” nu verifică că cele 4 tipuri sunt identice. 
+//De fapt verifică doar primele 2 tipuri că sunt identice (_roti[0].GetTipAnvelopa()) == (_roti[1].GetTipAnvelopa()). 
+//Operatorul „==” returnează 1 pentru true și 0 pentru false. Apoi acestă valoare (0/1) e comparată de al doilea „==” cu _roti[2].GetTipAnvelopa() și așa mai departe. 
+//În cazul tău părea să funcționeze corect pentru că elementelor din enumul tău le corespund valorile 0 (iarna) și 1 (vara). 
+//Dar dacă în exercițiu aveam cazul cu 2(universal) codul n-ar fi afișat „universale” cum era corect, ci „mixte” pentru că mergea pe else. Abordare corectă era să parcurgi roțile 2, 3 și 4 într-un for și să le compari cu prima roată.
