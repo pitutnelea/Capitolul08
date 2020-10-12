@@ -17,7 +17,7 @@ Roata::~Roata()
 bool Roata::IsFlat()
 {
     if (_anvelopa.GetPresiune() < 1) {return true;}
-    else if (_anvelopa.GetPresiune() >1) {return false;}
+    //else if (_anvelopa.GetPresiune() >1) {return false;}
 }
 
 void Roata::SchimbaRoata(Anvelopa anvelopa, Janta janta)
